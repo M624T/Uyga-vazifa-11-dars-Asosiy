@@ -41,6 +41,7 @@ factorial_lambda = lambda n: 1 if n == 0 else n * factorial_lambda(n - 1)
 print(factorial_iterative(5))  # 120
 print(factorial_recursive(5))  # 120
 print(factorial_lambda(5))  # 120
+
 #---------------------------------------------------------------------
 # 5 - Javob:
 # Modul misoli
@@ -52,6 +53,7 @@ try:
     x = 5 / 0
 except ZeroDivisionError:
     print("Nolga bo'lish mumkin emas")
+
 #---------------------------------------------------------------------
 # 6 - Javob:
 # Foydalanuvchi ismini faylga yozish
@@ -100,6 +102,7 @@ with open("data.json", "w") as f:
 with open("data.json", "r") as f:
     data = json.load(f)
 print(data)
+
 #---------------------------------------------------------------------
 # 7 - Javob:
 from abc import ABC, abstractmethod
@@ -205,6 +208,7 @@ def main():
 
     save_phones_to_file(phones, 'phones.txt')
     phones = load_phones_from_file('phones.txt')
+    
 #---------------------------------------------------------------------
 # 8 - Javob:
     GitHub_link = "https://github.com/M624T/Uyga-vazifa-11-dars-Asosiy.git"
